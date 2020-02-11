@@ -30,7 +30,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/ng-pensive-design-system/assets/js/jquery.min.js",
+              "./node_modules/ng-pensive-design-system/assets/js/popper.min.js",
+              "./node_modules/ng-pensive-design-system/assets/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
